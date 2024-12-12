@@ -10,9 +10,11 @@ Qualora si volesse cambiare la chiave segreta che permette la comunicazione tra 
 A questo punto lanciare i comandi bash
 
 ```bash
+    
     composer install
     npm install
 
+    php artisan key:generate
     php artisan migrate:fresh --seed
     php artisan optimize
 ```
